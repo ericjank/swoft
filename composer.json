@@ -63,5 +63,11 @@
       "./vendor/bin/phpunit -c phpunit.xml"
     ],
     "cs-fix": "./bin/php-cs-fixer fix --dry-run --diff --diff-format=udiff"
+  },
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://mirrors.aliyun.com/composer/"
+    }
   }
 }
